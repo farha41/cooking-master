@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(80, 121, 19);
+}
+h1{
+    text-align: center;
+    color: mediumblue;
+    font-size: 45px;
+}
+.searchInput{
+    margin-left: 40%;
+    background-color: rgb(219, 181, 200);
+    height: 25%;
+    width: 25%;
+}
+#searchBtn{
+    color: mediumblue;
+    background-color: mediumvioletred;
+}
+#mealList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#mealList img{
+    width: 500px;
+}
+.meal{
+    border: 3px solid rgb(43, 89, 148);
+    border-radius: 27px;
+    padding: 15px;
+    margin: 15px 15px;
+    width: 500px;
+}
+.mealName{
+    font-size: 25px;
+    color: rgb(92, 8, 43);
+}
