@@ -42,7 +42,7 @@ const showIngredient = mealItem =>{
   for (let i = 0; i < mealItem.length; i++) {
     const menuItem = mealItem[i];
   ingredientList.innerHTML = `
-       <li>${menuItem.strIngredient}</li>
+       <li>${menuItem.strIngredient1}</li>
        <li>${menuItem.strIngredient2}</li>
        <li>${menuItem.strIngredient3}</li>
        <li>${menuItem.strIngredient4}</li>
